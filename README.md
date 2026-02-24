@@ -54,6 +54,7 @@ It is not currently intended to compete with frontier corporate supercomputer cl
 
 To prevent bots and multi-account abuse, participation is anchored to strict human verification. We acknowledge that achieving a flawless, privacy-preserving "One Person, One Account" system remains an open research challenge in the field of decentralized networks; however, this protocol builds upon the most recent open-source attempts to resolve this—such as the early 2026 open-sourcing of the Human Network (the cryptographic foundation of Human Passport), which utilizes zero-knowledge proofs and verifiable Oblivious Pseudorandom Functions (vOPRF) to establish strict Sybil resistance without exposing underlying personal data.
 
+
 ```text
 +-------------------------------------------------------+
 |        ZERO-KNOWLEDGE PROOF IDENTITY VERIFICATION     |
