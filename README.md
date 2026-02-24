@@ -4,7 +4,7 @@
 ## 1. Vision & Core Principles
 Today’s most powerful AI systems are controlled by a small number of corporations with massive centralized data centers. This project proposes a different path: build and run AI using verified human participation, not capital concentration.
 
-
+```text
 +-------------------------------------------------------+
 |           DECENTRALIZED AI NETWORK ARCHITECTURE       |
 |                                                       |
