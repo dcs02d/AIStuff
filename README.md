@@ -24,7 +24,7 @@ Today’s most powerful AI systems are controlled by a small number of corporati
 |      [Node D] <-------> [Node E] <-------> [Node F]   |
 |                                                       |
 |   * No Central Server  * Peer-to-Peer  * Human Owned  |
-+-------------------------------------------------------+```
++-------------------------------------------------------+```text
 
 The Proof-of-Personhood AI Protocol is a decentralized network where every participant is a real human, the AI is trained and hosted across personal computers, and contributions are rewarded in non-financial priority credits. It is an attempt to create AI as public infrastructure—owned and maintained by people.
 
