@@ -33,12 +33,12 @@ At its core, this protocol is trying to balance three competing forces: Egalitar
 
 Core Principles:
 
-    One Person, One Account: Each human can create only one permanent identity.
+One Person, One Account: Each human can create only one permanent identity.
 
-    No Financial Tokens: Credits earned cannot be sold or traded.
+No Financial Tokens: Credits earned cannot be sold or traded.
 
-    Contribution Unlocks Access: Priority access to the AI is earned by helping build and run it.
+Contribution Unlocks Access: Priority access to the AI is earned by helping build and run it.
 
-    Hardware Equality with Incentives: Better hardware is rewarded slightly more to prevent network stagnation, but strictly capped to prevent capital dominance.
+Hardware Equality with Incentives: Better hardware is rewarded slightly more to prevent network stagnation, but strictly capped to prevent capital dominance.
 
-    Open Governance: System parameters evolve through community voting.
+Open Governance: System parameters evolve through community voting.
