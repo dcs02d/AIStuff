@@ -14,9 +14,21 @@ Track B: Template-Driven Bulk Processing: Technical users and data engineers can
 Universal Reward: All verified work is rewarded equally. Whether a user spends an hour writing an original summary or an hour adjusting bulk-processing scripts, the protocol awards the exact same amount of time credits.
 
 4. Distributed Training and Consensus
-The AI is not trained in a central data center. It is built piece-by-piece on the computers of the network's users.
-Local Processing: When a user claims a training task, their computer downloads a tiny piece of the AI and the specific data for that task. The user's computer processes the math locally and sends only the completed mathematical updates back to the network.
-Proving the Work: To prove the user actually did the work, a fraction of the exact same task is secretly sent to a random second user. If both users submit the exact same mathematical result, the protocol confirms the work is legitimate and automatically pays out the time credits to both.
+The AI is not trained in a central data center. It is built piece-by-piece on the computers of the network's users, guided directly by the AI's own learning needs.
+
+Automated Task Generation: The training queue is initially and continuously populated by the AI model itself. As the model reviews data, it mathematically identifies its own weak points, gaps in logic, or areas of low confidence. It automatically translates these blind spots into discrete training tasks and pushes them to the public queue for the human network to solve.
+
+Local Processing: When a user claims one of these AI-generated tasks, their computer downloads a tiny piece of the AI and the specific data for that job. The user's computer processes the math locally and sends only the completed mathematical updates back to the network.
+
+Proving the Work: To prove the user actually did the work and did not just submit random data, a fraction of the exact same task is secretly sent to a random second user. If both users submit the exact same mathematical result, the protocol confirms the work is legitimate and automatically pays out the time credits to both.
+
+Long-Term Task Generation (Human Guidance):
+
+While the AI automatically generates tasks to fix its own mathematical blind spots, the human network ultimately guides its long-term education. Users can introduce new tasks to the public queue in two ways:
+
+    Continuous Updates: The world is constantly generating new information. Users can continuously submit newly published research, current events, or new open-source code through the Data Studio. The system automatically checks this submission against its existing knowledge base. If it is verified as net-new information (not redundant), the system officially generates new cleaning and training tasks for the community to claim.
+
+    User-Directed Bounties: If a user wants the AI to specialize in a highly specific, niche topic (for example, a custom software language or a specific branch of case law), they can submit a raw dataset to the network. To prevent spam, the user must "spend" a portion of their own earned time credits to push this custom dataset into the public task queue. Other users then claim those tasks, process the data, and earn the time credits. This creates a closed-loop economy where users can essentially spend their priority to crowdsource the AI's ongoing education.
 
 5. The Hardware Floor
 To ensure the network is fast enough to actually function, it establishes a minimum hardware requirement, but it refuses to reward expensive supercomputers.
@@ -25,9 +37,14 @@ The Flat Reward Curve: Once a device passes this $500 baseline, the reward curve
 Community Governance: As technology naturally gets cheaper, the community votes to raise the baseline specs of the floor without ever raising the $500 accessibility barrier.
 
 6. Running the AI (The Swarm Network)
-When the AI is finished, it is hosted directly on the network of user devices. Because standard internet connections are slower than centralized corporate fiber optics, the network changes how it routes information:
-Asynchronous Learning: Training data is broken into millions of tiny, independent packets so users can process them at their own pace without bottlenecking the system.
-Geographic Routing: When a user asks the finished AI a question, the network routes that prompt to the thousands of active computers physically closest to them, minimizing internet delay.
+
+When the AI is finished, it is hosted directly on the network of user devices. Because standard internet connections are slower than centralized corporate fiber optics, the network changes how it routes information and incentivizes participation:
+
+    Asynchronous Learning: Training data is broken into millions of tiny, independent packets so users can process them at their own pace without bottlenecking the system.
+
+    Geographic Routing: When a user asks the finished AI a question, the network routes that prompt to the thousands of active computers physically closest to them, minimizing internet delay.
+
+    Passive Earning (Device Availability): To ensure the network always has enough computing power online to answer user prompts, participants receive clock hour credits simply for keeping their devices connected and available to the network. As long as a device meets the minimum hardware floor and stands ready to process requests, the user accumulates time credits for providing the system's ongoing infrastructure.
 
 7. The Economy of Priority
 The time credits earned by the users are strictly utility tokens to manage the network's processing limits.
