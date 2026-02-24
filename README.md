@@ -42,3 +42,14 @@ Contribution Unlocks Access: Priority access to the AI is earned by helping buil
 Hardware Equality with Incentives: Better hardware is rewarded slightly more to prevent network stagnation, but strictly capped to prevent capital dominance.
 
 Open Governance: System parameters evolve through community voting.
+
+##2. Technical Scope
+
+This protocol is intentionally designed to support medium-sized, highly efficient open models (e.g., the 7B–13B parameter range), distributed fine-tuning, and swarm-based inference.
+
+To overcome the latency and bandwidth limits of standard consumer internet, the network will leverage asynchronous federated learning and parameter-efficient architectures—such as Low-Rank Adaptation (LoRA) or distributed low-communication (DiLoCo) methods—which drastically reduce the amount of data each device must transmit.
+
+It is not currently intended to compete with frontier corporate supercomputer clusters. The goal is resilient, distributed, public AI infrastructure—not maximal scale at any cost.
+3. Identity and Reputation
+
+To prevent bots and multi-account abuse, participation is anchored to strict human verification. We acknowledge that achieving a flawless, privacy-preserving "One Person, One Account" system remains an open research challenge in the field of decentralized networks; however, this protocol builds upon the most recent open-source attempts to resolve this—such as the early 2026 open-sourcing of the Human Network (the cryptographic foundation of Human Passport), which utilizes zero-knowledge proofs and verifiable Oblivious Pseudorandom Functions (vOPRF) to establish strict Sybil resistance without exposing underlying personal data.
