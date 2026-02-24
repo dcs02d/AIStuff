@@ -148,3 +148,59 @@ The AI is built piece-by-piece on the computers of the users. To prevent cheatin
 |    +-----------------+  +-----------------+           |
 +-------------------------------------------------------+
 ```
+
+Secret Duplication: A small percentage of all tasks (training and inference) are secretly duplicated and sent to multiple nodes. The mathematical results are compared for consistency.
+
+Because consumer hardware can produce slight numerical differences and AI generation is often probabilistic, direct answer comparison can be unreliable. For audited tasks, the protocol enforces deterministic generation settings (e.g., fixed seeds and zero temperature) to ensure reproducible outputs. The network operates under an optimistic fraud-proof model: results are assumed valid by default, but any participant may challenge a suspicious output. Verified misconduct results in penalties, making dishonest computation economically irrational.
+
+Strict Penalties: Dishonest behavior or submitting intentionally junk data results in immediate reputation loss, temporary exclusion from the network, and a reset of participation progress. Cheating is mathematically designed to cost more than it earns.
+
+## 7. Credit Design (The Economy of Priority)
+
+The time credits earned by users are strictly utility tokens used to prioritize AI access when network demand is high.
+
+No Speculation: They cannot be sold, transferred, or converted to cash.
+
+Credit Decay: To prevent early adopters from hoarding priority forever, credits decay slowly over time if hoarded excessively.
+
+## 8. AI Curriculum Governance
+
+While the AI automatically flags its own weak points for the task queue, participants may spend their credits to propose new datasets or specialization areas for the AI to learn.
+
+Dynamic Topic Pricing: To prevent ideological capture or spam, dominant topics become progressively more expensive to push to the queue. Rare or underrepresented knowledge domains remain inexpensive. Diversity of knowledge is structurally encouraged.
+
+## 9. System Governance
+
+The network is not controlled by a central foundation. Key adjustable parameters require community voting to change, including:
+
+Minimum hardware baseline
+
+Performance multiplier cap
+
+Credit decay rate
+
+Monthly contribution requirement
+
+Audit frequency
+
+## 10. Bootstrapping: The Academic Launchpad
+
+Launching a massive network from scratch is incredibly difficult. Traditionally, projects rely on venture capital, which inevitably leads to investor capture, pressure to monetize, and centralized control.
+
+To protect the protocol, it will not begin as a startup. It will be bootstrapped through academic grants and university research labs.
+
+Phase 1: Research and Prototyping (1-2 Years): Funded by public-interest and AI safety grants, a university lab will build the initial code, test the security, and launch a small pilot network. All code will be strictly open-source. The university hosts the research; it does not own the AI.
+
+Phase 2: The Genesis Launch: Once the protocol is stable, the network goes live to the public, and the university completely steps away.
+
+The Scaffolding Must Disappear
+To guarantee the institution does not become a permanent dictator, hardcoded transition rules will apply:
+
+No Backdoors: The original developers retain zero master keys, admin privileges, or override switches.
+
+No Founder Perks: Governance rights are strictly earned through participation. The founding researchers enter the live system with the exact same zero-balance standing as a new user.
+
+The Self-Destruct Clause: Any foundation or nonprofit created to coordinate the launch must include a legally binding sunset clause, forcing it to dissolve once the community takes over.
+
+This approach intentionally trades the rapid growth of a tech startup for the durability of a public utility. The academic phase is merely scaffolding—it is designed to be torn down the moment the network can stand on its own.
+
