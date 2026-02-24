@@ -4,7 +4,7 @@
 ## 1. Vision & Core Principles
 Today’s most powerful AI systems are controlled by a small number of corporations with massive centralized data centers. This project proposes a different path: build and run AI using verified human participation, not capital concentration.
 
-```text
+```
 +-------------------------------------------------------+
 |           DECENTRALIZED AI NETWORK ARCHITECTURE       |
 |                                                       |
@@ -24,7 +24,7 @@ Today’s most powerful AI systems are controlled by a small number of corporati
 |      [Node D] <-------> [Node E] <-------> [Node F]   |
 |                                                       |
 |   * No Central Server  * Peer-to-Peer  * Human Owned  |
-+-------------------------------------------------------+```text
++-------------------------------------------------------+```
 
 The Proof-of-Personhood AI Protocol is a decentralized network where every participant is a real human, the AI is trained and hosted across personal computers, and contributions are rewarded in non-financial priority credits. It is an attempt to create AI as public infrastructure—owned and maintained by people.
 
